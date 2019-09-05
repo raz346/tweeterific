@@ -20,6 +20,15 @@ body {
   font-size: 24px;
 }
 
+body nav {
+  padding: 2em;
+}
+
+.fa {
+  font-size: 34px;
+  color:skyblue;
+}
+
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */

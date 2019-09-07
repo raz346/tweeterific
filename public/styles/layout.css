@@ -15,19 +15,17 @@ html {
  */
 
 body {
-  color: #545149;
-  background-color: #f4f1ec;
-  font-size: 24px;
+  height: 100%;
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color:white;
 }
 
-body nav {
-  padding: 2em;
+main {
+  background-color: white ;
+  margin: 140px auto;
+  width: 450px;
 }
 
-.fa {
-  font-size: 34px;
-  color:skyblue;
-}
 
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions

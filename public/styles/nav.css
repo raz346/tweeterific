@@ -1,0 +1,21 @@
+#nav-bar {
+  display: flex;
+  position: fixed;
+  top: 0;
+  height : 80px;
+  width: 100%;
+  background-color: #00a087;
+  font-color: #e8fdff;
+  padding: 0 2em;
+}
+
+#nav-bar .nav-text {
+  font-size: 35px;
+  line-height: 200%;
+}
+
+#nav-bar .fa {
+  font-size: 60px;
+  padding: 10px;
+  color:rgb(101, 198, 236);
+}

@@ -19,7 +19,7 @@ $(function() {
   
   function renderTweetElement (tweets) {
     tweets.forEach(function(tweet) {
-      $("#tweets-container").append(createTweetElement(tweet));
+      $("#tweets-container").prepend(createTweetElement(tweet));
     });
   }
   
@@ -48,12 +48,11 @@ $(function() {
         type: "POST",
         url: "/tweets",
         data: $(this).serialize(),
-        
-        success: function (response) {
-          
-        }
-      });
+      }).then(function (tweet){
+        loadTweets(tweet);
+      })
     }
+    $(".new-tweet textarea").val("");
   })
 loadTweets();
 });
